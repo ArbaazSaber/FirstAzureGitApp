@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connStr = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
+var connStr = builder.Configuration.GetConnectionString("AZRE_SQL_CONNECTIONSTRING");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
